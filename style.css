@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'IBM', sans-serif;
+  overflow: hidden;
+  background-color: #2b4eff;
+}
+
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 8px;
+  padding: 60px 50px 30px;
+}
+
+.counter {
+  font-size: 5em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.button-container button {
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  padding: 17px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.button-container .return-to-zero {
+  padding: 24px 20px;
+}
